@@ -317,19 +317,19 @@ class PortfolioDataService
     private function defaultSettings(): array
     {
         return [
-            'seo_title' => 'Nitesh Jangda — Creative Director | NJ Interiors',
-            'seo_description' => 'Nitesh Jangda, Creative Director of NJ Interiors. Four generations of craftsmanship, engineering precision, and contemporary luxury interior design.',
-            'seo_keywords' => 'Nitesh Jangda, NJ Interiors, Luxury Interior Design, Creative Director, Residential Interiors, Commercial Interiors, Bespoke Furniture',
-            'about_heading' => 'FROM ENGINEERING TO DESIGN.',
-            'about_body' => 'An Electronics Engineering graduate, Nitesh initially began his professional journey in technical support. However, his passion for creativity, architecture and interior spaces inspired him to pursue a different path. In 2016, he founded NJ Interiors, bringing together his technical knowledge, creative vision and family\'s rich heritage of craftsmanship.',
+            'seo_title' => 'Nitesh Jangda — Architectural & Spatial Designer | Personal Portfolio',
+            'seo_description' => 'Personal architectural and spatial design portfolio of Nitesh Jangda. Four generations of craftsmanship, engineering precision, and bespoke contemporary spaces.',
+            'seo_keywords' => 'Nitesh Jangda, Architectural Designer, Spatial Design, Portfolio, Interior Architecture, Bespoke Living, Engineering Precision',
+            'about_heading' => 'FROM ENGINEERING TO SPATIAL DESIGN.',
+            'about_body' => 'An Electronics Engineering graduate, Nitesh initially began his professional journey in technical engineering. However, his passion for architecture, spatial forms, and fine craftsmanship inspired him to chart his own creative path. In 2016, he founded NJ Interiors as his studio practice, harmonizing technical precision with bespoke architectural design and his family\'s multi-generational heritage.',
             'vision_quote' => 'To create spaces that go beyond beauty — spaces that tell stories, inspire living and stand the test of time.',
             'contact_email' => 'studio@njinteriors.in',
             'contact_phone' => '+91 98000 00000',
             'contact_address' => 'Bhubaneswar & Mumbai, India',
-            'social_instagram' => 'https://instagram.com/njinteriors',
+            'social_instagram' => 'https://www.instagram.com/njinterio?fqnt=em1kMWVpaTF4c21q&utm_source=qr',
             'social_linkedin' => 'https://linkedin.com/in/niteshjangda',
             'social_behance' => 'https://behance.net/njinteriors',
-            'social_youtube' => 'https://youtube.com/@njinteriors',
+            'social_youtube' => 'https://youtube.com/@njinterior?si=_wNWufT6gFlWgRlZ',
         ];
     }
 

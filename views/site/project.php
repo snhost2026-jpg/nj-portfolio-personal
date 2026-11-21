@@ -10,7 +10,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 
 $this->params['settings'] = $settings;
-$this->title = $project['title'] . ' — NJ Interiors';
+$this->title = $project['title'] . ' — Nitesh Jangda';
 ?>
 
 <section class="nj-section" style="padding-top: 140px;">

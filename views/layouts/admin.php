@@ -19,7 +19,7 @@ BootstrapAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php $this->registerCsrfMetaTags() ?>
-    <title><?= Html::encode($this->title ? $this->title . ' — NJ Interiors Admin' : 'NJ Interiors Admin') ?></title>
+    <title><?= Html::encode($this->title ? $this->title . ' — Nitesh Jangda Portfolio CMS' : 'Nitesh Jangda Portfolio CMS') ?></title>
     <?php $this->head() ?>
     <style>
         :root {
@@ -45,7 +45,7 @@ BootstrapAsset::register($this);
 
 <nav class="navbar navbar-expand-lg admin-nav py-3">
     <div class="container">
-        <a class="navbar-brand" href="<?= Url::to(['/admin/index']) ?>">NJ INTERIORS // CMS</a>
+        <a class="navbar-brand" href="<?= Url::to(['/admin/index']) ?>">NITESH JANGDA // CMS</a>
         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#adminNav">
             <span class="navbar-toggler-icon"></span>
         </button>

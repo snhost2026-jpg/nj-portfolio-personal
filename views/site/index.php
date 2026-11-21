@@ -12,7 +12,7 @@ use yii\helpers\Html;
 use yii\helpers\Url;
 
 $this->params['settings'] = $settings;
-$this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | NJ Interiors';
+$this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Architectural & Spatial Designer | Personal Portfolio';
 ?>
 
 <!-- =========================================================
@@ -23,7 +23,7 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
     <div class="nj-hero-bg">
         <img
             src="<?= Html::encode(Url::to('@web/media/projects/hero-living.webp')) ?>"
-            alt="Luxury contemporary living room designed by NJ Interiors"
+            alt="Luxury contemporary living room designed by Nitesh Jangda"
             class="nj-hero-bg-img"
             width="1920"
             height="1080"
@@ -35,8 +35,8 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
 
     <div class="nj-hero-inner">
         <div class="nj-hero-top-meta">
-            <span class="nj-micro-tag">CREATIVE DIRECTOR &nbsp;|&nbsp; NJ INTERIORS</span>
-            <span class="nj-micro-tag">EST. 2016 &nbsp;//&nbsp; FOUR GENERATIONS OF CRAFT</span>
+            <span class="nj-micro-tag">SPATIAL DESIGNER &nbsp;|&nbsp; ARCHITECTURAL INNOVATOR</span>
+            <span class="nj-micro-tag">FOUR GENERATIONS OF CRAFT &nbsp;//&nbsp; PERSONAL ARCHIVE</span>
         </div>
 
         <div class="nj-hero-stage">
@@ -56,13 +56,13 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
                 <div class="nj-hero-portrait-frame">
                     <img
                         src="<?= Html::encode(Url::to('@web/media/nitesh-jangda.webp')) ?>"
-                        alt="Nitesh Jangda, Creative Director of NJ Interiors"
+                        alt="Nitesh Jangda, Architectural & Spatial Designer"
                         class="nj-hero-portrait"
                         width="960"
                         height="1280"
                     >
                 </div>
-                <span class="nj-portrait-caption">NITESH JANGDA — CREATIVE DIRECTOR</span>
+                <span class="nj-portrait-caption">NITESH JANGDA — SPATIAL DESIGNER</span>
             </div>
         </div>
 
@@ -98,7 +98,7 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
                 <span class="nj-serif-italic">One Passion for Craftsmanship.</span>
             </h2>
             <p class="nj-lead">
-                For Nitesh Jangda, interior design is more than a profession — it is a passion deeply rooted in a four-generation legacy of craftsmanship, engineering and construction.
+                For Nitesh Jangda, spatial design is more than a profession — it is a passion deeply rooted in a four-generation legacy of craftsmanship, engineering and construction.
             </p>
         </div>
 
@@ -148,24 +148,24 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
                 <span class="nj-index-tag nj-index-tag--light">02 // THE JOURNEY</span>
                 <div class="nj-milestone-year" aria-hidden="true">2016</div>
                 <h2 class="nj-h2 nj-h2--light">
-                    <?= Html::encode($settings['about_heading'] ?? 'FROM ENGINEERING TO DESIGN.') ?>
+                    <?= Html::encode($settings['about_heading'] ?? 'FROM ENGINEERING TO SPATIAL DESIGN.') ?>
                 </h2>
                 <p class="nj-body-copy nj-body-copy--light">
-                    <?= Html::encode($settings['about_body'] ?? 'An Electronics Engineering graduate, Nitesh initially began his professional journey in technical support. However, his passion for creativity, architecture and interior spaces inspired him to pursue a different path. In 2016, he founded NJ Interiors, bringing together his technical knowledge, creative vision and family\'s rich heritage of craftsmanship.') ?>
+                    <?= Html::encode($settings['about_body'] ?? 'An Electronics Engineering graduate, Nitesh initially began his professional journey in technical engineering. However, his passion for architecture, spatial forms, and fine craftsmanship inspired him to chart his own creative path. In 2016, he founded NJ Interiors as his studio practice, harmonizing technical precision with bespoke architectural design and his family\'s multi-generational heritage.') ?>
                 </p>
 
                 <div class="nj-director-card nj-tilt-3d">
                     <div class="nj-director-photo">
                         <img
                             src="<?= Html::encode(Url::to('@web/media/nitesh-jangda.webp')) ?>"
-                            alt="Nitesh Jangda, Creative Director of NJ Interiors"
+                            alt="Nitesh Jangda, Architectural & Spatial Designer"
                             decoding="async"
                             width="960"
                             height="1280"
                         >
                     </div>
                     <div class="nj-director-info">
-                        <span class="nj-stat-kicker">CREATIVE DIRECTOR</span>
+                        <span class="nj-stat-kicker">SPATIAL DESIGNER &amp; FOUNDER</span>
                         <strong class="nj-director-name">Nitesh Jangda</strong>
                         <span class="nj-director-role">B.E. Electronics &middot; Founder, NJ Interiors (2016)</span>
                     </div>
@@ -221,14 +221,14 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
                 </h2>
             </div>
             <p class="nj-lead">
-                Today, with over a decade of experience, Nitesh leads NJ Interiors with a design philosophy that seamlessly blends contemporary aesthetics, practical functionality and exceptional craftsmanship.
+                Today, with over a decade of hands-on practice, Nitesh creates architectural spaces with a design philosophy that seamlessly blends contemporary aesthetics, practical functionality and exceptional craftsmanship.
             </p>
         </div>
 
         <!-- 3D Perspective Fan Deck // Disciplines (inspired by njinteriors.co.in) -->
         <div class="nj-fandeck-stage-wrap" id="fanDeckStageWrap">
             <div class="nj-fandeck-header">
-                <span class="nj-fandeck-badge">DESIGN DISCIPLINES // CRAFT IN MOTION</span>
+                <span class="nj-fandeck-badge">DESIGN DISCIPLINES // PERSONAL ARCHIVE</span>
                 <div class="nj-fandeck-tabs" role="tablist" aria-label="Design Disciplines">
                     <button type="button" class="nj-fandeck-tab" data-index="0" role="tab">01 Spatial</button>
                     <button type="button" class="nj-fandeck-tab" data-index="1" role="tab">02 Materials</button>
@@ -365,7 +365,7 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
                 <h2 class="nj-h2">SPACES THAT TELL STORIES.</h2>
             </div>
             <p class="nj-sample-notice">
-                Curated sample portfolio studies illustrating NJ Interiors' architectural direction until live client case studies are published via CMS.
+                Curated architectural studies, bespoke joinery, and spatial concepts designed by Nitesh Jangda.
             </p>
         </div>
 
@@ -478,11 +478,11 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
                     <em>WITH CARE.</em>
                 </h2>
                 <p class="nj-lead nj-lead--light">
-                    Under his creative direction, NJ Interiors continues to transform residential and commercial spaces through innovative concepts, meticulous execution and an unwavering commitment to quality.
+                    Through his personal creative vision, Nitesh transforms residential and commercial environments through innovative spatial concepts, meticulous millimeter-level execution, and an unwavering commitment to quality.
                 </p>
 
                 <ul class="nj-discipline-strip">
-                    <li>Creative Vision</li>
+                    <li>Spatial Vision</li>
                     <li>Technical Understanding</li>
                     <li>Engineering Precision</li>
                     <li>Material Knowledge</li>
@@ -503,7 +503,7 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
                     ></video>
                     <div class="nj-cinema-caption">
                         <span class="nj-reel-dot"></span>
-                        <span>NJ INTERIORS // EXECUTION WALKTHROUGH</span>
+                        <span>NITESH JANGDA // DESIGN WALKTHROUGH</span>
                     </div>
                 </div>
             </div>
@@ -519,7 +519,7 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
         <img
             id="visionZoomImg"
             src="<?= Html::encode(Url::to('@web/media/projects/project-commercial.webp')) ?>"
-            alt="Architectural gallery lounge by NJ Interiors"
+            alt="Architectural gallery lounge designed by Nitesh Jangda"
             decoding="async"
             width="1600"
             height="1067"
@@ -532,7 +532,7 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
         <blockquote class="nj-vision-quote">
             &ldquo;<?= Html::encode($settings['vision_quote'] ?? 'To create spaces that go beyond beauty — spaces that tell stories, inspire living and stand the test of time.') ?>&rdquo;
         </blockquote>
-        <cite class="nj-vision-cite">— NITESH JANGDA, CREATIVE DIRECTOR</cite>
+        <cite class="nj-vision-cite">— NITESH JANGDA</cite>
     </div>
 </section>
 
@@ -549,12 +549,12 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
                     <span class="nj-serif-italic">Something Timeless.</span>
                 </h2>
                 <p class="nj-lead">
-                    Have a space in mind? Let&rsquo;s turn your vision into something extraordinary.
+                    Have a space, collaboration, or architectural vision in mind? Connect directly with Nitesh.
                 </p>
 
                 <div class="nj-contact-details">
                     <div class="nj-detail-block">
-                        <span class="nj-micro-tag">STUDIO EMAIL</span>
+                        <span class="nj-micro-tag">DIRECT EMAIL</span>
                         <a href="mailto:<?= Html::encode($settings['contact_email'] ?? 'studio@njinteriors.in') ?>">
                             <?= Html::encode($settings['contact_email'] ?? 'studio@njinteriors.in') ?>
                         </a>
@@ -566,13 +566,13 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
                         </a>
                     </div>
                     <div class="nj-detail-block">
-                        <span class="nj-micro-tag">PRACTICE</span>
+                        <span class="nj-micro-tag">STUDIO BASE</span>
                         <span><?= Html::encode($settings['contact_address'] ?? 'Bhubaneswar & Mumbai, India') ?></span>
                     </div>
                 </div>
 
                 <div class="nj-contact-photo nj-tilt-3d" data-clip-reveal>
-                    <img src="<?= Html::encode(Url::to('@web/media/legacy/nj-studio-2016.webp')) ?>" alt="NJ Interiors design studio consultation desk" decoding="async">
+                    <img src="<?= Html::encode(Url::to('@web/media/legacy/nj-studio-2016.webp')) ?>" alt="Nitesh Jangda design studio consultation desk" decoding="async">
                 </div>
             </div>
 
@@ -628,8 +628,11 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
     <footer class="nj-footer">
         <div class="nj-container nj-footer-inner">
             <div class="nj-footer-brand">
-                <span class="nj-footer-logo">NJ INTERIORS</span>
-                <span class="nj-footer-tag">CRAFTING LUXURY WITH CARE.</span>
+                <div class="nj-footer-logo-row">
+                    <img src="<?= Html::encode(Url::to('@web/media/logo.webp')) ?>" alt="Nitesh Jangda Logo" class="nj-footer-logo-img" width="44" height="44">
+                    <span class="nj-footer-logo">NITESH JANGDA</span>
+                </div>
+                <span class="nj-footer-tag">ARCHITECTURAL &amp; SPATIAL DESIGN ARCHIVE.</span>
             </div>
 
             <div class="nj-footer-links">
@@ -649,7 +652,7 @@ $this->title = $settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | 
             </div>
 
             <div class="nj-footer-copy">
-                &copy; <?= date('Y') ?> NJ Interiors. All rights reserved.
+                &copy; <?= date('Y') ?> Nitesh Jangda. All rights reserved.
             </div>
         </div>
     </footer>

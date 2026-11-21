@@ -12,9 +12,9 @@ use yii\helpers\Url;
 PortfolioAsset::register($this);
 
 $settings = $this->params['settings'] ?? [];
-$seoTitle = $this->title ?: ($settings['seo_title'] ?? 'Nitesh Jangda — Creative Director | NJ Interiors');
-$seoDesc = $settings['seo_description'] ?? 'A Legacy of Craftsmanship. A Vision for Modern Living. Luxury residential and commercial interior design by Nitesh Jangda.';
-$seoKeywords = $settings['seo_keywords'] ?? 'Nitesh Jangda, NJ Interiors, Interior Design';
+$seoTitle = $this->title ?: ($settings['seo_title'] ?? 'Nitesh Jangda — Architectural & Spatial Designer | Personal Portfolio');
+$seoDesc = $settings['seo_description'] ?? 'Personal architectural and spatial design portfolio of Nitesh Jangda. Four generations of craftsmanship, engineering precision, and bespoke contemporary spaces.';
+$seoKeywords = $settings['seo_keywords'] ?? 'Nitesh Jangda, Architectural Designer, Spatial Design, Portfolio, Interior Architecture';
 $ogImage = Url::to('/media/projects/hero-living.webp', true);
 ?>
 <?php $this->beginPage() ?>
@@ -27,7 +27,12 @@ $ogImage = Url::to('/media/projects/hero-living.webp', true);
     <title><?= Html::encode($seoTitle) ?></title>
     <meta name="description" content="<?= Html::encode($seoDesc) ?>">
     <meta name="keywords" content="<?= Html::encode($seoKeywords) ?>">
-    <meta name="author" content="Nitesh Jangda — NJ Interiors">
+    <meta name="author" content="Nitesh Jangda">
+
+    <!-- Favicon & Brand Icons -->
+    <link rel="icon" type="image/x-icon" href="<?= Url::to('@web/favicon.ico') ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= Url::to('@web/favicon.png') ?>">
+    <link rel="apple-touch-icon" href="<?= Url::to('@web/favicon.png') ?>">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -44,22 +49,9 @@ $ogImage = Url::to('/media/projects/hero-living.webp', true);
             [
                 '@type' => 'Person',
                 'name' => 'Nitesh Jangda',
-                'jobTitle' => 'Creative Director',
-                'worksFor' => [
-                    '@type' => 'Organization',
-                    'name' => 'NJ Interiors',
-                ],
+                'jobTitle' => 'Architectural & Spatial Designer',
                 'description' => $seoDesc,
                 'image' => Url::to('/media/nitesh-jangda.webp', true),
-            ],
-            [
-                '@type' => 'InteriorDesignBusiness',
-                'name' => 'NJ Interiors',
-                'founder' => 'Nitesh Jangda',
-                'foundingDate' => '2016',
-                'description' => $seoDesc,
-                'email' => $settings['contact_email'] ?? 'studio@njinteriors.in',
-                'telephone' => $settings['contact_phone'] ?? '',
             ],
         ],
     ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
@@ -89,12 +81,14 @@ $ogImage = Url::to('/media/projects/hero-living.webp', true);
             <line x1="60" y1="10" x2="60" y2="110" stroke="#D9CCBA" stroke-width="0.5" stroke-opacity="0.4" stroke-dasharray="100" stroke-dashoffset="100" class="nj-bp-line"/>
             <circle cx="60" cy="60" r="32" stroke="#9A8062" stroke-width="0.75" stroke-dasharray="210" stroke-dashoffset="210" class="nj-bp-line"/>
         </svg>
-        <div class="nj-preloader-monogram">NJ</div>
-        <span class="nj-preloader-brand">NJ INTERIORS &middot; ATELIER</span>
+        <div class="nj-preloader-monogram">
+            <img src="<?= Html::encode(Url::to('@web/media/logo.webp')) ?>" alt="Nitesh Jangda" class="nj-preloader-logo-img" width="68" height="68">
+        </div>
+        <span class="nj-preloader-brand">NITESH JANGDA &middot; PORTFOLIO</span>
         <p class="nj-preloader-quote">A Legacy of Craftsmanship. A Vision for Modern Living.</p>
         <div class="nj-preloader-line"><span class="nj-preloader-progress" id="nj-preloader-progress"></span></div>
         <div class="nj-preloader-footer">
-            <span>INITIALIZING STUDIO</span>
+            <span>INITIALIZING PORTFOLIO</span>
             <span class="nj-preloader-count" id="nj-preloader-count">00%</span>
         </div>
     </div>
@@ -109,9 +103,9 @@ $ogImage = Url::to('/media/projects/hero-living.webp', true);
 <!-- Floating Architectural Navigation -->
 <header class="nj-header" id="nj-header">
     <div class="nj-header-inner">
-        <a href="#home" class="nj-logo" data-scroll-to="#home" aria-label="NJ Interiors Home">
-            <span class="nj-logo-mark">NJ</span>
-            <span class="nj-logo-text">INTERIORS</span>
+        <a href="#home" class="nj-logo" data-scroll-to="#home" aria-label="Nitesh Jangda Portfolio">
+            <img src="<?= Html::encode(Url::to('@web/media/logo.webp')) ?>" alt="Nitesh Jangda" class="nj-logo-img" width="38" height="38">
+            <span class="nj-logo-text">NITESH JANGDA</span>
         </a>
 
         <nav class="nj-nav" aria-label="Primary Navigation">
@@ -152,7 +146,7 @@ $ogImage = Url::to('/media/projects/hero-living.webp', true);
             <li><a href="#contact" data-scroll-to="#contact">06 / Contact</a></li>
         </ul>
         <div class="nj-mobile-meta">
-            <p>Nitesh Jangda — Creative Director</p>
+            <p>Nitesh Jangda — Architectural &amp; Spatial Designer</p>
             <p><?= Html::encode($settings['contact_email'] ?? 'studio@njinteriors.in') ?></p>
         </div>
     </div>
