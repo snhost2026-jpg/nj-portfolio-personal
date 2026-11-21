@@ -1,0 +1,26 @@
+RewriteEngine on
+
+# Ensure WebP and WebM MIME types are served properly
+<IfModule mod_mime.c>
+    AddType image/webp .webp
+    AddType video/webm .webm
+</IfModule>
+
+# Enable compression for text assets
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# Browser caching for media & static assets
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType video/webm "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+# Yii2 pretty URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
